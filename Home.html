@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header section start -->
+  <header class="header">
+    <section class="flex">
+      <div id="menu-btn" class="fa fa-bars-staggered"></div>
+      <a href="Home.html" class="logo"><i class="fas fa-business-time"></i> <b>JobSkills Portal</b></a>
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Jobs.html">Jobs</a>
+        <a href="Learn.html">Learn</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="Login.html">Login</a>
+      </nav>
+    
+      <a href="#" class="btn" style="margin-top: 0;">Post Jobs</a>
+      <div class="icons">
+        <div id="toggle-btn" class="fas fa-sun"></div>
+     </div>
+    </section>
+  </header>
+  <!-- Header section end -->
+
+  <!-- Home section start -->
+  <div class="home-container">
+    <section class="home">
+      <form action="" method="post">
+        <h3>Find Your Next Job!</h3>
+        <p>Job Title <span>*</span></p>
+        <input type="text" name="title" placeholder="Keyword, category, or company" required maxlength="20" class="input">
+        <p>Location <span>*</span></p>
+        <input type="text" name="location" placeholder="City, state, country" required maxlength="50" class="input">
+        <input type="submit" value="Search Jobs" name="search" class="btn">
+      </form>
+    </section>
+  </div>
+  <!-- Home section end -->
+
+  <!-- Category section start -->
+  <section class="category">
+    <h1 class="heading">Job Categories</h1>
+    <div class="box-container">
+      <a href="Marketing.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Marketing & </h3>
+          <h3>Communication</h3>
+          <span>280 jobs</span>
+        </div>
+      </a>
+      <a href="Sales.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Sales & Business</h3>
+          <h3>Development</h3>
+          <span>100 jobs</span>
+        </div>
+      </a>
+      <a href="Software.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Software Engineer</h3>
+          <h3> & QA</h3>
+          <span>500 jobs</span>
+        </div>
+      </a>
+      <a href="Devops.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Devops</h3>
+          <h3>Engineer</h3>
+          <span>300 jobs</span>
+        </div>
+      </a>
+      <a href="Devops.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Data Science </h3>
+          <h3> & Analytics</h3>
+          <span>100 jobs</span>
+        </div>
+      </a>
+      <a href="Devops.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Ux, Design &</h3>
+          <h3> Architecture</h3>
+          <span>500 jobs</span>
+        </div>
+      </a>
+      <a href="Devops.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Human</h3>
+          <h3>Resources</h3>
+          <span>300 jobs</span>
+        </div>
+      </a>
+      <a href="Devops.html" class="box"><i class='fas fa-briefcase'></i>
+        <div>
+          <h3>Risk</h3>
+          <h3>Management</h3>
+          <span>200 jobs</span>
+        </div>
+      </a>
+    </div>
+  </section>
+  <!-- Category section end -->
+
+  <!-- Job section start -->
+  <section class="jobs-container">
+    <h1 class="heading">Latest jobs</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/echo.jpg" alt="Company logo">
+          <h3>EchoBoom</h3>
+          <p>7 Days ago</p>
+        </div>
+        <h3 class="job-title">Devops Intern</h3>
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Mumbai, India</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>1.4 Lacs P.A</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Internship</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewMarket1.html" class="btn">View Details</a>
+         
+        </div>
+      </div>
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/cognex.jpg" alt="Company logo">
+          <h3>Cognex</h3>
+          <p>13 Days ago</p>
+        </div>
+        <h3 class="job-title">Tele Sales Executive</h3>
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Kolkata, India</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>1.5-2 Lacs P.A</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Full time</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewSales.html" class="btn">View Details</a>
+         
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top:2rem">
+      <a href="Jobs.html" class="btn">View All</a>
+    </div>
+  </section>
+  <!-- Job section end -->
+
+  <!-- Footer start -->
+  <footer class="footer">
+    <section class="grid">
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="Home.html"><i class="fa fa-angle-right"></i> Home</a>
+        <a href="About.html"><i class="fa fa-angle-right"></i> About</a>
+        <a href="Jobs.html"><i class="fa fa-angle-right"></i> Jobs</a>
+        <a href="Learn.html"><i class="fa fa-angle-right"></i> Learn</a>
+        <a href="Contact.html"><i class="fa fa-angle-right"></i> Contact Us</a>
+        <a href="#"><i class="fa fa-angle-right"></i> Filter Search</a>
+      </div>
+      <div class="box">
+        <h3>Extra Links</h3>
+        <a href="#"><i class="fa fa-angle-right"></i> Accounts</a>
+        <a href="Login.html"><i class="fa fa-angle-right"></i> Login</a>
+        <a href="Register.html"><i class="fa fa-angle-right"></i> Register</a>
+        <a href="#"><i class="fa fa-angle-right"></i> Post Job</a>
+        <a href="#"><i class="fa fa-angle-right"></i> Dashboard</a>
+      </div>
+      <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+      </div>
+    </section>
+  </footer>
+  <!-- Footer end -->
+
+  <script src="JS/script.js"></script>
+</body>
+
+</html>

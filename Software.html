@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Jobs</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <!--Header section start-->
+  <header class="header">
+    <section class="flex">
+      <div id="menu-btn" class="fa fa-bars-staggered"></div>
+      <a href="Home.html" class="logo"><i class="fa fa-briefcase"></i>JobSkills Portal</a>
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Jobs.html">Jobs</a>
+        <a href="Learn.html">Learn</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="Login.html">Login</a>
+      </nav>
+      <div class="icons">
+        <div id="toggle-btn" class="fas fa-sun"></div>
+     </div>
+    </section>
+  </header>
+  <!--Header section end-->
+
+  <!--filter section first-->
+  <section class="job-filter">
+    <h1 class="heading">Filter Jobs</h1>
+    <form action="" method="post" >
+      <div class="flex">
+        <div class="box">
+          <p>Job Title <span>*</span></p>
+          <input type="text" name="title" placeholder="Keyword, category, or company" required maxlength="20" class="input">
+        </div>
+        <div class="box">
+          <p>Location <span>*</span></p>
+          <input type="text" name="location" placeholder="City, state, country" required maxlength="50" class="input">
+        </div>
+      </div>
+     <div class="dropdown-container">
+      <div class="dropdown">
+        <input type="text" name="date" readonly placeholder="date posted" class="output" maxlength="20" >
+        <div class="lists">
+          <p class="items">today</p>
+          <p class="items">2 days ago</p>
+          <p class="items">3 days ago</p>
+          <p class="items">4 days ago</p>
+          <p class="items">5 days ago</p>
+          <p class="items">10 days ago</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <input type="text" name="date" readonly placeholder="estimated salary" class="output" maxlength="20" >
+        <div class="lists">
+          <p class="items">15k-20k</p>
+          <p class="items">20k-30k</p>
+          <p class="items">30k-40k</p>
+          <p class="items">50k-70k</p>
+          <p class="items">70k+</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <input type="text" name="date" readonly placeholder="job type" class="output" maxlength="20" >
+        <div class="lists">
+          <p class="items">full time</p>
+          <p class="items">part time</p>
+          <p class="items">internship</p>
+          <p class="items">contract</p>
+          <p class="items">temporary</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <input type="text" name="date" readonly placeholder="education" class="output" maxlength="20" >
+        <div class="lists">
+          <p class="items">12th</p>
+          <p class="items">Diploma</p>
+          <p class="items">BTECH</p>
+          <p class="items">BE</p>
+          <p class="items">MTECH</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <input type="text" name="date" readonly placeholder="work shifts" class="output" maxlength="20" >
+        <div class="lists">
+          <p class="items">day shift</p>
+          <p class="items">night shift</p>
+          <p class="items">flexible shift</p>
+          <p class="items">fixed shift</p>
+        </div>
+      </div>
+     </div>
+     <center><input type="submit" value="Search" class="btn" ></center>
+      </form>
+  </section>
+  <!--filter section end-->
+
+  <section class="jobs-container">
+    <h1 class="heading">All jobs</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/accenture.png" alt="Company logo">
+          <h3>Accenture</h3>
+          <p>2 Days ago</p>
+        </div>
+        <h3 class="job-title">Software Engineer</h3>
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Bhubaneswar, India</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>2-3 Lacs P.A</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Full time</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewMarket1.html" class="btn">View Details</a>
+         
+        </div>
+      </div>
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/capgemini.png" alt="Company logo">
+          <h3>Capgemini</h3>
+          <p>2 Days ago</p>
+         
+        </div>
+        <h3 class="job-title">Senior Analyst</h3>
+        
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Remote</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>Not disclosed</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Full time</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewMarket1.html" class="btn">View Details</a>
+          
+        </div>
+      </div>
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/deloitte.png" alt="Company logo">
+          <h3>Deloitte</h3>
+          <p>2 Days ago</p>
+        </div>
+        <h3 class="job-title">Junior Php Developer</h3>
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Kolkata, India</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>1.5-2 Lacs P.A</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Full time</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewMarket1.html" class="btn">View Details</a>
+         
+        </div>
+      </div>
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/tcs.jpg" alt="Company logo">
+          <h3>Tcs</h3>
+          <p>7 Days ago</p>
+        </div>
+        <h3 class="job-title">Intern Data Science</h3>
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Mumbai, India</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>1.4 Lacs P.A</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Internship</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewMarket1.html" class="btn">View Details</a>
+         
+        </div>
+      </div>
+      <div class="box">
+        <div class="company">
+          <img src="./IMAGES/cognizant.jpg" alt="Company logo">
+          <h3>Cognizant</h3>
+          <p>2 Days ago</p>
+        </div>
+        <h3 class="job-title">Java Developer</h3>
+        <p class="location"><i class="fa fa-map-marker-alt"></i><span>Gurgaon, India</span></p>
+        <div class="tags">
+          <p><i class="fas fa-indian-rupee-sign"></i><span>55000/Month</span></p>
+          <p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+          <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+        </div>
+        <div class="flex-btn">
+          <a href="ViewMarket1.html" class="btn">View Details</a>
+        
+        </div>
+      </div>
+      
+      
+      <!-- Repeat .box divs for more job listings -->
+    </div>
+  </section>
+
+  <!-- Footer Start-->
+  <footer class="footer">
+    <section class="grid">
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="Home.html"><i class="fa fa-angle-right"></i>Home</a>
+        <a href="About.html"><i class="fa fa-angle-right"></i>About</a>
+        <a href="Jobs.html"><i class="fa fa-angle-right"></i>Jobs</a>
+        <a href="Contact.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+        <a href="#"><i class="fa fa-angle-right"></i>Filter Search</a>
+      </div>
+      <div class="box">
+        <h3>Extra Links</h3>
+        <a href="#"><i class="fa fa-angle-right"></i>Accounts</a>
+        <a href="Login.html"><i class="fa fa-angle-right"></i>Login</a>
+        <a href="Register.html"><i class="fa fa-angle-right"></i>Register</a>
+        <a href="#"><i class="fa fa-angle-right"></i>Post Job</a>
+        <a href="#"><i class="fa fa-angle-right"></i>Dashboard</a>
+      </div>
+      <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
+      </div>
+    </section>
+  </footer>
+  <!--Footer End-->
+  
+  <script src="JS/script.js"></script>
+  <script>
+    document.querySelectorAll('.job-filter .dropdown .lists .items').forEach(item => {
+        item.addEventListener('click', function() {
+            let dropdown = this.closest('.dropdown');
+            let output = dropdown.querySelector('.output');
+            output.value = this.textContent.trim();
+        });
+    });
+</script>
+
+
+</body>
+</html>

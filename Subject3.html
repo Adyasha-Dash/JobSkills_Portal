@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects Page</title>
+    <link rel="stylesheet" href="../JobSkills_Portal/CSS/style.css">
+</head>
+<body>
+   <!--Header section start-->
+   <header class="header">
+    <section class="flex">
+      <div id="menu-btn" class="fa fa-bars-staggered"></div>
+      <a href="Home.html" class="logo"><i class="fa fa-briefcase"></i>JobSkills Portal</a>
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Jobs.html">Jobs</a>
+        <a href="Learn.html">Learn</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="Login.html">Login</a>
+      </nav>
+      <a href="#" class="btn" style="margin-top: 0;">Post Jobs</a>
+      <div class="icons">
+        <div id="toggle-btn" class="fas fa-sun"></div>
+     </div>
+    </section>
+  </header>
+  <section class="table-section">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Subjects</th>
+          <th>Action</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3" data-column="Subjects">Database Management System(DBMS)</td>
+          <td data-column="Action"><center><button onclick="window.location.href = 'dbms.html';">Start</button>
+          </center></td>
+          <td data-column="Status"><center><input type="checkbox"></center></td>
+        </tr>
+        <tr>
+          <td colspan="3" data-column="Subjects">Software Development Life Cycle(SDLC)</td>
+          <td data-column="Action"><center><button onclick="window.location.href = 'sdlc.html';">Start</button>
+          <td data-column="Status"><center><input type="checkbox"></center></td>
+        </tr>
+        <tr>
+          <td colspan="3" data-column="Subjects">Operating System(OS)</td>
+          <td data-column="Action"><center><button onclick="window.location.href = 'os.html';">Start</button>
+          <td data-column="Status"><center><input type="checkbox"></center></td>
+        </tr>
+        <tr>
+          <td colspan="3" data-column="Subjects">Object Oriented Programming(OOPS)</td>
+          <td data-column="Action"><center><button onclick="window.location.href = 'oops.html';">Start</button>
+          <td data-column="Status"><center><input type="checkbox"></center></td>
+        </tr>
+       
+      </tbody>
+    </table>
+</section>
+<!-- Footer start -->
+<footer class="footer">
+  <section class="grid">
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="Home.html"><i class="fa fa-angle-right"></i> Home</a>
+      <a href="About.html"><i class="fa fa-angle-right"></i> About</a>
+      <a href="Jobs.html"><i class="fa fa-angle-right"></i> Jobs</a>
+      <a href="Learn.html"><i class="fa fa-angle-right"></i> Learn</a>
+      <a href="Contact.html"><i class="fa fa-angle-right"></i> Contact Us</a>
+      <a href="#"><i class="fa fa-angle-right"></i> Filter Search</a>
+    </div>
+    <div class="box">
+      <h3>Extra Links</h3>
+      <a href="#"><i class="fa fa-angle-right"></i> Accounts</a>
+      <a href="Login.html"><i class="fa fa-angle-right"></i> Login</a>
+      <a href="Register.html"><i class="fa fa-angle-right"></i> Register</a>
+      <a href="#"><i class="fa fa-angle-right"></i> Post Job</a>
+      <a href="#"><i class="fa fa-angle-right"></i> Dashboard</a>
+    </div>
+    <div class="box">
+      <h3>Follow Us</h3>
+      <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+      <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+    </div>
+  </section>
+</footer>
+<!-- Footer end -->
+
+
+
+  <script>
+    // Dark mode toggle script
+    const toggleBtn = document.getElementById('toggle-btn');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
